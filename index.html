@@ -15,38 +15,57 @@
     <!--Google fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Menú 1</a></li>
-            <li><a href="/Assets/paginas/menu2.html">Menú 2</a></li>
-            <li><a href="/Assets/paginas/menu3.html">Menú 3</a></li>
-            <li><a href="/Assets/paginas/menu4.html">Menú 4</a></li>
-            <li><a href="/Assets/paginas/menu5.html">Menú 5</a></li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg bg-light nav_fixed">
+        <div class="container">
+            <a class="navbar-brand" href="#">Adopción de Perritos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse nav_direction" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active2" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perritos!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conotacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <!--MAIN HEADER-->
     <main>
         <div class="header__titulo">
             <div>
-                <h1>El Título</h1>
-                <p>El Título debe ser h1 y solo un h1 solo por página</p>
-                <button>MAPA</button>
+                <h1>Página de adopción de perritos</h1>
+                <h2>"No Compres un Perro de Raza, Adopta un perro sin casa"</h2>
+                <button>Contáctanos</button>
             </div>
         </div>
 
         <!--SECTION ONE-->
         <section class="section__one">
             <div>
-                <img src="Assets/imagenes/Diseño_2.png" alt="imagen de joven diseñando">
+                <img src="./assets/imagenes/Niño feliz con perrito adoptado.jpg" alt="Niño feliz con perrito adoptado">
             </div>
             <div>
-                <h2>Subtítulo h2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore temporibus facere qui neque ad natus sequi minima autem odio dignissimos in, aliquam aspernatur. Itaque velit voluptas ipsam modi adipisci? Lorem ipsum dolor sit amet
+                <h2>Descubre que recibirás mas cariño del que tú le dás</h2>
+                <p class="p_capital">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore temporibus facere qui neque ad natus sequi minima autem odio dignissimos in, aliquam aspernatur. Itaque velit voluptas ipsam modi adipisci? Lorem ipsum dolor sit amet
                     consectetur adipisicing elit. Ratione nesciunt natus quia repellat iusto voluptate laborum sequi non, tempore inventore officiis quibusdam provident vero enim nulla nobis ullam neque accusamus. Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Quis ipsam earum ipsum commodi obcaecati maxime autem, amet quisquam odio, esse necessitatibus accusantium doloribus! Quasi, consectetur quae nesciunt impedit blanditiis magnam.
                 </p>
@@ -56,10 +75,12 @@
         <section class="section__two">
             <div>
                 <img src="Assets/imagenes/comentario.png" alt="">
+                <h1>AUN ME FALTA PERO YA TENGO LISTA LA IDEA PROFE!</h1>
+                <p>Trabajo 100% hecho por mí, luego vendrán mas cambios con nuevas ramas y comentarios. He tenido demasiado trabajo y me queda poco tiempo.
+                </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore temporibus facere qui neque ad natus sequi minima autem odio dignissimos in, aliquam aspernatur. Itaque velit voluptas ipsam modi adipisci? Lorem ipsum dolor sit amet
                     consectetur adipisicing elit. Ratione nesciunt natus quia repellat iusto voluptate laborum sequi non, tempore inventore officiis quibusdam provident vero enim nulla nobis ullam neque accusamus. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Quis ipsam earum ipsum commodi obcaecati maxime autem, amet quisquam odio, esse necessitatibus accusantium doloribus! Quasi, consectetur quae nesciunt impedit blanditiis magnam.
-                </p>
+                    adipisicing elit. Quis ipsam earum ipsum commodi obcaecati maxime autem, amet quisquam odio, esse necessitatibus accusantium doloribus! Quasi, consectetur quae nesciunt impedit blanditiis magnam.</p>
             </div>
             <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/gZT6jNmd_LE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -70,7 +91,7 @@
             </div>
         </section>
 
-        <!--SECTION THREE-->
+        <!--SECTION THREE
         <section class="section__three__table">
             <h2>Table</h2>
             <table border="2px" cellpadding="10px" cellspacing="0px">
@@ -109,7 +130,7 @@
                     <td></td>
                 </tr>
             </table>
-        </section>
+        </section>-->
 
         <!--SECTION FOUR CARDS-->
         <section class="section__four_cards">
