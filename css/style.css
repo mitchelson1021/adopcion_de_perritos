@@ -32,13 +32,18 @@ h2{
     height: 50px;
     background-image: url('../assets/imagenes/Corazon.jpg');
     background-size: cover;
+}
 
+.navbar>.container{
+    justify-content: center !important;
 }
 
 .active2 {
     color: #6558F5
 }
-a.nav-link{border-radius: 20px;}
+a.nav-link{border-radius: 20px;
+    padding-left: 10px;
+}
 a.nav-link:hover{
     background-color: #6558F5;
     color: white;
@@ -207,6 +212,7 @@ footer div:nth-child(2) {
 
     .img_cel{
         display: block;
+        margin-top: 40px;
     }
     
     
