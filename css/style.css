@@ -143,19 +143,7 @@ padding-left: 5%;
     border-bottom: 2px solid #6558F5;
     margin-bottom: 50px;
 }
-/*
-.section__two div {
-    background-color: beige;
-    width: 50%;
-    min-width: 400px;
-}
 
-.section__two div:nth-child(2) {
-    background-color: lightpink;
-}
-
-
-*/
 .section__three__table {
     background-color: cadetblue;
     padding: 5% 10%;
@@ -214,7 +202,5 @@ footer div:nth-child(2) {
         display: block;
         margin-top: 40px;
     }
-    
-    
-
 }
+/*EMPEZAMOS CON SASS*/
