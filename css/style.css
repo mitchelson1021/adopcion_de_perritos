@@ -7,6 +7,7 @@ body {
 h2{
     font-weight: 400;
     font-size: 3em;
+    text-shadow: 5px 5px 12px rgba(0,0,0,0.4);
 }
 
 /*Nav*/
@@ -61,13 +62,20 @@ h2{
 /*Section one*/
 .section__one {
     background-color: beige;
-    padding: 5%;
+    padding-top: 5%;
+    padding-right: 0px;
+    padding-bottom: 5%;
+    padding-left: 5%;
 }
 .section__one2 {
     background-image: url(../assets/imagenes/Niño\ feliz\ con\ perrito\ adoptado.jpg);
     background-attachment: fixed;
     background-size: cover;
-    padding: 5%;
+    padding: 10%;
+}
+
+.img_cel{
+    display: none;
 }
 
 .section__one2 h2{
@@ -77,27 +85,31 @@ h2{
 .p_capital::first-letter {
     font-size: 3em;
     font-family: 'sans-serif';
-    padding-left: 5%;
+    padding-left: 10px;
 }
 
 .p_capital{
     line-height: 1em;
-}
-/*
-.section__one img {
-    width: 70%;
-    box-shadow: 12px 12px 0px #6558F5;
-    margin-top: 10%;
+    margin-top: 50px;
 }
 
 .section__two {
-    border: 1px #e0e0e0 solid;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 70vh;
+    background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 5%;
 }
 
+.section__two img {
+    width: 100px;
+}
+
+.section__two2{
+    border-bottom: 2px solid #6558F5;
+    margin-bottom: 50px;
+}
+/*
 .section__two div {
     background-color: beige;
     width: 50%;
@@ -108,9 +120,7 @@ h2{
     background-color: lightpink;
 }
 
-.section__two img {
-    width: 50px;
-}
+
 */
 .section__three__table {
     background-color: cadetblue;
@@ -165,6 +175,11 @@ footer div:nth-child(2) {
         display: flex;
         justify-content: center;
     }
+
+    .img_cel{
+        display: block;
+    }
+    
     
 
 }
