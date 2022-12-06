@@ -93,7 +93,7 @@ button:hover{
     padding-left: 5%;
 }
 .section__one2 {
-    background-image: url(../assets/imagenes/Niño\ feliz\ con\ perrito\ adoptado.jpg);
+    background-image: url(../assets/imagenes/Niño_feliz_con_perrito_adoptado.jpg);
     background-attachment: fixed;
     background-size: cover;
     padding: 0px;
@@ -127,6 +127,7 @@ padding-left: 5%;
     padding-bottom: 50px;
 }
 
+/*Section two*/
 .section__two {
     background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
     background-position: center top;

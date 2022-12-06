@@ -1,0 +1,36 @@
+/*Nav*/
+.nav_direction {
+	flex-direction: row-reverse;
+}
+.nav_fixed {
+	position: fixed;
+	width: 100%;
+	padding: 20px 49px;
+}
+.navbar {
+	background-color: #f5f5dc !important;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+	>.container {
+		justify-content: center !important;
+	}
+}
+.navbar-brand {
+	&::before {
+		content: " ";
+		width: 50px;
+		height: 50px;
+		background-image: url('../assets/imagenes/Corazon.jpg');
+		background-size: cover;
+	}
+}
+.active2 {
+	color: #6558F5;
+}
+a.nav-link {
+	border-radius: 20px;
+	padding-left: 10px;
+	&:hover {
+		background-color: #6558F5;
+		color: white;
+	}
+}

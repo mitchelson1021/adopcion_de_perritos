@@ -1,0 +1,37 @@
+/*Section one*/
+.section__one {
+	background-color: beige;
+	padding-top: 5%;
+	padding-right: 0px;
+	padding-bottom: 5%;
+	padding-left: 5%;
+}
+.section__one2 {
+	background-image: url(../assets/imagenes/Niño_feliz_con_perrito_adoptado.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0px;
+	h2 {
+		color: white;
+		padding: 50px;
+	}
+}
+.img_cel {
+	display: none;
+}
+.section__one3 {
+	background-color: rgba(0,0,0,0.3);
+	padding-left: 5%;
+}
+.p_capital {
+	&::first-letter {
+		font-size: 3em;
+		font-family: 'sans-serif';
+		padding-left: 10px;
+	}
+	line-height: 1.2em;
+	margin-top: 50px;
+	color: white;
+	font-size: 18px;
+	padding-bottom: 50px;
+}
