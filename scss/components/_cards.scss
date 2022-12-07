@@ -1,6 +1,6 @@
 /*Section Cards*/
 .section_cards {
-	padding: 5%;
+	padding: 10%;
 }
 .contenedor {
 	display: grid;
@@ -9,8 +9,9 @@
 	grid-template-areas: "uno dos tres";
 }
 .card {
-	max-width: 360px;
+	/*max-width: 360px;*/
 	padding: 10px;
+    padding-bottom: 50px;
 	border: 2px solid lightgray;
 	border-radius: 10px;
 	box-shadow: 10px 10px 18px gray;
@@ -19,14 +20,12 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 	&:hover {
 		transition: 300ms;
 		transform: scale(105%);
 	}
 	img {
-		height: 300px;
-		overflow-y: hidden;
+        border-radius: 5px;
 	}
 }
 .uno {
