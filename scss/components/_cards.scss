@@ -1,7 +1,11 @@
 /*Section Cards*/
 .section_cards {
 	padding: 10%;
+	background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
+	background-position: center;
+		
 }
+
 .contenedor {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -9,23 +13,27 @@
 	grid-template-areas: "uno dos tres";
 }
 .card {
-	/*max-width: 360px;*/
+	height: 650px;
 	padding: 10px;
     padding-bottom: 50px;
-	border: 2px solid lightgray;
+	border: 1px solid lightgray;
 	border-radius: 10px;
 	box-shadow: 10px 10px 18px gray;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	align-content: center;
+	div{
+		img{
+			width: 100%;
+			margin-top: 10px;
+			overflow-y:auto;
+       	 border-radius: 5px;
+		}
+	}
 	&:hover {
 		transition: 300ms;
 		transform: scale(105%);
-	}
-	img {
-        border-radius: 5px;
 	}
 }
 .uno {
@@ -48,6 +56,6 @@
 }
 .animation-bell {
 	&:hover {
-		animation: wobble-hor-bottom 0.8s both;
+		animation: wobble-hor-bottom 0.8s linear 1;
 	}
 }

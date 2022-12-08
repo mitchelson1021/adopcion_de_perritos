@@ -9,6 +9,10 @@ h2 {
 	text-shadow: 5px 5px 12px rgba(0,0,0,0.4);
 }
 
+
+
+@import './base/mixins';
+
 @import './base/botones';
 
 @import './components/navbar';
@@ -22,6 +26,8 @@ h2 {
 @import './components/cards';
 
 @import './components/animaciones';
+
+@import './base/media';
 
 
 
