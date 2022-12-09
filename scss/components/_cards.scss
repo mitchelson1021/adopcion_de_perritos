@@ -2,8 +2,7 @@
 .section_cards {
 	padding: 10%;
 	background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
-	background-position: center;
-		
+	@include background_img ();
 }
 
 .contenedor {
@@ -26,7 +25,6 @@
 	div{
 		img{
 			width: 100%;
-			margin-top: 10px;
 			overflow-y:auto;
        	 border-radius: 5px;
 		}

@@ -8,7 +8,10 @@ body {
 h2 {
   font-weight: 400;
   font-size: 3em;
-  text-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+.navbar, h2 {
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.4);
 }
 
 /*BOTONES*/
@@ -39,8 +42,7 @@ button:hover {
 }
 
 .navbar {
-  background-color: #f5f5dc !important;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  background-color: #D1D1B8 !important;
 }
 .navbar > .container {
   justify-content: center !important;
@@ -55,7 +57,7 @@ button:hover {
 }
 
 .active2 {
-  color: #6558F5;
+  color: white;
 }
 
 a.nav-link {
@@ -69,7 +71,6 @@ a.nav-link:hover {
 
 /*Header*/
 .header__titulo {
-  border: 1px #e0e0e0 solid;
   padding-top: 20%;
   padding-left: 10%;
   padding-right: 50%;
@@ -136,6 +137,8 @@ a.nav-link:hover {
 .section__two {
   background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
   background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding: 10% 5%;
 }
 .section__two img {
@@ -151,7 +154,10 @@ a.nav-link:hover {
 .section_cards {
   padding: 10%;
   background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
+  background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
   background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contenedor {
@@ -175,7 +181,6 @@ a.nav-link:hover {
 }
 .card div img {
   width: 100%;
-  margin-top: 10px;
   overflow-y: auto;
   border-radius: 5px;
 }

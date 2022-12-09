@@ -9,8 +9,8 @@
 	z-index: 999;
 }
 .navbar {
-	background-color: #f5f5dc !important;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+	background-color: $color_tercero !important;
+	@extend %sombra;
 	>.container {
 		justify-content: center !important;
 	}
@@ -25,7 +25,7 @@
 	}
 }
 .active2 {
-	color: #6558F5;
+	color: white;
 }
 a.nav-link {
 	border-radius: 20px;

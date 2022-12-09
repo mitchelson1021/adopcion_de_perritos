@@ -1,12 +1,11 @@
 /*Section two*/
 .section__two {
-	background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
-	background-position: center;
+	@include background_img ();
 	padding: 10% 5%;
 	img {
 		width: 100px;
 	}
 }
 .titulo_seccion {
-	@include titulo_seccion()
+	@include titulo_seccion();
 }
