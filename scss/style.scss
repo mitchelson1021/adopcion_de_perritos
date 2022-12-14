@@ -8,7 +8,6 @@ body {
 h2 {
 	font-weight: 400;
 	font-size: 3em;
-	
 }
 
 
@@ -33,6 +32,8 @@ h2 {
 @import './components/animaciones';
 
 @import './base/media';
+
+@import './base/contact-form.scss';
 
 
 

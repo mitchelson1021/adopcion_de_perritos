@@ -10,7 +10,7 @@ h2 {
   font-size: 3em;
 }
 
-.navbar, h2 {
+.input_1, .card, .navbar {
   box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.4);
 }
 
@@ -168,12 +168,11 @@ a.nav-link:hover {
 }
 
 .card {
-  height: 650px;
+  height: 705px;
   padding: 10px;
   padding-bottom: 50px;
   border: 1px solid lightgray;
   border-radius: 10px;
-  box-shadow: 10px 10px 18px gray;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -268,6 +267,27 @@ a.nav-link:hover {
     gap: 100px 10px;
     grid-template-areas: ". uno ." ". dos ." ". tres .";
   }
+}
+.input_1 {
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px;
+  margin: 10px 0px;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  outline: none;
+  border: 1px solid gray;
+}
+.input_1:focus {
+  background-color: white;
+}
+
+textarea {
+  min-height: 150px;
 }
 
 /*# sourceMappingURL=style_sass.css.map */
