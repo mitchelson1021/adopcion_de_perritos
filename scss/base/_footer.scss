@@ -1,7 +1,14 @@
 footer{
     background-color: #222222;
     color: white;
-    ul li{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    ul{
     list-style: none;
+    li a{
+        color: white;
+        font-weight: 800;
+        text-decoration: none;
+    }
 }
 }

@@ -139,7 +139,7 @@ a.nav-link:hover {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 10% 5%;
+  padding: 5% 5%;
 }
 .section__two img {
   width: 100px;
@@ -152,7 +152,7 @@ a.nav-link:hover {
 
 /*Section Cards*/
 .section_cards {
-  padding: 10%;
+  padding: 5% 5%;
   background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
   background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
   background-position: center;
@@ -288,6 +288,21 @@ a.nav-link:hover {
 
 textarea {
   min-height: 150px;
+}
+
+footer {
+  background-color: #222222;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li a {
+  color: white;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style_sass.css.map */
