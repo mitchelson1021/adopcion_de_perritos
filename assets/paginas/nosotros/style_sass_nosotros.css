@@ -84,6 +84,13 @@ a.nav-link:hover {
   padding-top: 10%;
   padding-bottom: 10%;
 }
+.seccion_1 h3 {
+  color: #6558F5;
+}
+.seccion_1 p {
+  font-size: 1.4em;
+  color: #6558F5;
+}
 
 footer {
   background-color: #222222;

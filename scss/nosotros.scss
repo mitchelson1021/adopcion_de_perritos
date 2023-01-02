@@ -35,7 +35,15 @@ h2 {
 .seccion_1{
     padding-top: 10%;
     padding-bottom: 10%;
+    h3{
+        color:#6558F5;
+    }
+    p{
+        font-size: 1.4em;
+        color:#6558F5;
+    }
 }
+
 
 
 @import './base/footer';

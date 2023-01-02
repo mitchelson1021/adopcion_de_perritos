@@ -1,0 +1,106 @@
+@import './base/var';
+
+body {
+	margin: 0px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 16px;
+}
+h2 {
+	font-weight: 400;
+	font-size: 3em;
+}
+h3{
+    color: #6558F5;
+}
+
+@import './base/mixins';
+
+@import './base/extends.scss';
+
+@import './base/botones';
+
+@import './components/navbar';
+
+
+.header__titulo {
+	padding-top: 20%;
+	padding-left: 10%;
+	padding-right: 50%;
+	padding-bottom: 10%;
+	color: white;
+	background-image: url(./imagenes/adoptame_portada.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.seccion_1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+@import './components/cards';
+@import './base/footer';
+
+.btn-prev{
+    background-color: transparent !important;
+    &:hover{
+        background-color: rgba(0,0,0,0.3) !important;
+        box-shadow: none;
+    }
+}
+.carousel-indicators{
+    button{
+        background-color: #6558F5 !important;
+        &:hover{
+           border-color: #6558F5 !important;
+        }
+    }
+}
+
+@import './components/section_two';
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media*/
+@media screen and (max-width:540px){
+    .header__titulo{
+        padding-top: 30%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 10%;
+        background-position: center bottom;
+
+    }
+    .header__titulo div h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 2em;
+    }
+    .header_1{
+        margin-top: 250px;
+        background-color: rgba(0,0,0,0.4);
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px 10px;
+        grid-template-areas: ". uno ." ". dos ." ". tres .";
+    }
+}
