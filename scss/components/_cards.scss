@@ -1,0 +1,59 @@
+/*Section Cards*/
+.section_cards {
+	padding: 5% 5%;
+	background-image: url(../assets/imagenes/Fondo_seccion_2.jpg);
+	@include background_img ();
+}
+
+.contenedor {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px 50px;
+	grid-template-areas: "uno dos tres";
+}
+.card {
+	height: 705px;
+	padding: 10px;
+    padding-bottom: 50px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	@extend %sombra;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	div{
+		img{
+			width: 100%;
+			overflow-y:auto;
+       	 border-radius: 5px;
+		}
+	}
+	&:hover {
+		transition: 300ms;
+		transform: scale(105%);
+	}
+}
+.uno {
+	grid-area: uno;
+}
+.dos {
+	grid-area: dos;
+}
+.tres {
+	grid-area: tres;
+}
+.separador {
+	width: 100%;
+	border-top: 2px solid lightgray;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.fa-solid {
+	color: #E8CA0A;
+}
+.animation-bell {
+	&:hover {
+		animation: wobble-hor-bottom 0.8s linear 1;
+	}
+}

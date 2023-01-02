@@ -1,0 +1,21 @@
+.input_1{
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+    margin: 10px 0px;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    outline: none;
+    border: 1px solid gray;
+    @extend %sombra;
+    &:focus{
+        background-color: white;
+    }
+}
+textarea{
+    min-height: 150px;
+}

@@ -1,0 +1,11 @@
+/*Section two*/
+.section__two {
+	@include background_img ();
+	padding: 5% 5%;
+	img {
+		width: 100px;
+	}
+}
+.titulo_seccion {
+	@include titulo_seccion();
+}
