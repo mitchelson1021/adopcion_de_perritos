@@ -78,7 +78,7 @@ a.nav-link:hover {
   padding-right: 50%;
   padding-bottom: 10%;
   color: white;
-  background-image: url(./imagenes/adoptame_portada.jpg);
+  background-image: url("./imagenes/adoptame_portada.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
